@@ -101,17 +101,17 @@ public class MainWindow {
 		Lbl_Empty.setIcon(new ImageIcon(MainWindow.class.getResource("/orderSystem/images/coffees/Empty Price.PNG")));
 		Lbl_Empty.setBounds(720, 62, 130, 138);
 		frmEspressohub.getContentPane().add(Lbl_Empty);
-		JButton Btn_Coffee = new JButton("Coffee");
 		
+		JButton Btn_Coffee = new JButton("Coffee");		
 		Btn_Coffee.setForeground(new Color(255, 255, 255));
 		Btn_Coffee.setBackground(new Color(139, 69, 19));
-		Btn_Coffee.setToolTipText("Black Coffee");
+		Btn_Coffee.setToolTipText("Want Black Coffee?");
 		Btn_Coffee.setFont(new Font("Tahoma", Font.BOLD, 14));
 		Btn_Coffee.setBounds(20, 211, 130, 35);
 		frmEspressohub.getContentPane().add(Btn_Coffee);
 		
 		JButton Btn_Latte = new JButton("Latte");		
-		Btn_Latte.setToolTipText("Black Coffee");
+		Btn_Latte.setToolTipText("Want Latte?");
 		Btn_Latte.setForeground(Color.WHITE);
 		Btn_Latte.setFont(new Font("Tahoma", Font.BOLD, 14));
 		Btn_Latte.setBackground(new Color(139, 69, 19));
@@ -119,16 +119,15 @@ public class MainWindow {
 		frmEspressohub.getContentPane().add(Btn_Latte);
 		
 		JButton Btn_Cappuccino = new JButton("Cappuccino");		
-		Btn_Cappuccino.setToolTipText("Black Coffee");
+		Btn_Cappuccino.setToolTipText("Want Cappuccino?");
 		Btn_Cappuccino.setForeground(Color.WHITE);
 		Btn_Cappuccino.setFont(new Font("Tahoma", Font.BOLD, 14));
 		Btn_Cappuccino.setBackground(new Color(139, 69, 19));
 		Btn_Cappuccino.setBounds(300, 211, 130, 35);
 		frmEspressohub.getContentPane().add(Btn_Cappuccino);
 		
-		JButton Btn_Americano = new JButton("Americano");
-		
-		Btn_Americano.setToolTipText("Black Coffee");
+		JButton Btn_Americano = new JButton("Americano");		
+		Btn_Americano.setToolTipText("Want Americano?");
 		Btn_Americano.setForeground(Color.WHITE);
 		Btn_Americano.setFont(new Font("Tahoma", Font.BOLD, 14));
 		Btn_Americano.setBackground(new Color(139, 69, 19));
@@ -136,7 +135,7 @@ public class MainWindow {
 		frmEspressohub.getContentPane().add(Btn_Americano);
 		
 		JButton Btn_Espresso = new JButton("Espresso");		
-		Btn_Espresso.setToolTipText("Black Coffee");
+		Btn_Espresso.setToolTipText("Want Espresso?");
 		Btn_Espresso.setForeground(Color.WHITE);
 		Btn_Espresso.setFont(new Font("Tahoma", Font.BOLD, 14));
 		Btn_Espresso.setBackground(new Color(139, 69, 19));
